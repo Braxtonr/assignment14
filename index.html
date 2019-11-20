@@ -6,8 +6,11 @@
         <script src = "script.js"></script>
     </head>
     <body>
-        <div class ="forms">
-        <div id = "add-workout">
+        <div id ="container">
+            <div class = "workout" id = "workout">
+
+            </div>
+        <div class = "forms" id = "add-workout">
             <h3>Create a Workout</h3>
             <p>
                 <label>Workout Name:</label>
@@ -29,22 +32,28 @@
             <button id="add-btn">Add Workout</button>
         </div>
 
-        <div id = "edit-workout">
+        <div class = "forms"  id = "edit-workout">
             <h3>Change a Workout</h3>
             <p>
-                <label>Workout ID:</label>
-                <input id = "workout-id">
+                Workout ID:<span id="edit-workout-id"></span>
+            </p>
+            <p>
+                <label>Workout Name:</label>
+                <input id = "workout-edit-name">
+            </p>
+            <p>
+                <label>Workout Type:</label>
+                <input id = "workout-edit-type">
+            </p>
+            <p>
+                <label>Workout Part:</label>
+                <input id = "workout-edit-part">
+            </p>
+            <p>
+                <label>Workout Muscles:</label>
+                <input id = "workout-edit-muscles">
             </p>
             <button id="edit-btn">Change Workout</button>
-        </div>
-
-        <div id = "delete-workout">
-            <h3>Change a Workout</h3>
-            <p>
-                <label>Workout ID:</label>
-                <input id = "workout-id">
-            </p>
-            <button id="del-btn">Delete Workout</button>
         </div>
         </div>
     </body>
